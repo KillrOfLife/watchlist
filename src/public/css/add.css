@@ -1,0 +1,41 @@
+.resultDiv .result {
+    width: 23%;
+    height: 300px;
+    padding: 6px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.resultDiv .result img {
+    width: 75%;
+}
+.resultDiv {
+    background: #FFF;
+    display: inline-block;
+}
+
+.resultDiv > p {
+    color: #000;
+    display: inline-block;
+    width: 95%;
+    padding: 10px;
+    border-bottom: double 2px #CCC;
+}
+
+ .resultDiv .result p {
+    margin: 0;
+}
+
+ .resultDiv .result p a {
+    color: #808080;
+    text-decoration: none;
+    font-size: 20px;
+    height: 100px;
+}
+
+ .resultDiv .result p a:hover {
+    text-decoration: underline;
+}
+
+
